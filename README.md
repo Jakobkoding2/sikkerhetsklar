@@ -1,23 +1,22 @@
-# SikkerhetsKlar — NIS2 Samsvarssjekk for Norske Bedrifter
+# sikkerhetsklar
 
-NIS2 gap-analyse-as-a-service for norske SMBer. Selvbetjent verktøy som kartlegger samsvar med Digitalsikkerhetsloven og NIS2 Art. 21.
+NIS2 compliance assessment platform for Norwegian small and medium-sized businesses.
 
-## Funksjoner
+## Overview
 
-- Interaktiv vurdering med 44 spørsmål fordelt på 10 NIS2-domener
-- Automatisk klassifisering (vesentlig/viktig enhet)
-- Visuell resultatside med score per domene
-- Profesjonell PDF-rapport med handlingsplan
-- Stripe-betaling (990 NOK engangskjøp)
-- E-postlevering av rapport via Resend
-- Admin-dashboard for statistikk
+sikkerhetsklar guides businesses through a structured NIS2 compliance questionnaire, scores their posture across control categories, and produces a detailed PDF report with actionable findings. Payment is handled via Stripe checkout, and an admin dashboard provides usage analytics.
 
-## Kjør lokalt
+## Features
 
-```bash
-npm install
-cp .env.local.example .env.local
-npm run dev
-```
+- Structured NIS2 questionnaire with weighted scoring
+- PDF report generation with findings and recommendations
+- Stripe-powered checkout flow
+- Admin analytics dashboard
 
-Åpne [http://localhost:3000](http://localhost:3000).
+## Tech
+
+TypeScript
+
+## Background
+
+The EU NIS2 directive applies to Norwegian businesses from 2024. Most SMBs lack the resources to audit their own compliance — this platform automates that assessment.
